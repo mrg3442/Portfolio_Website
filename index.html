@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Matthew Green</title>
+        <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+    </head>
+
+    <body class="Background"></body>
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Github">Github</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks added to insert space between navbar and heading-->
+        <br>
+        <br>
+
+        <!--Background Video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_video">
+                <source src="./images/Videos/typing.mp4" type="video/mp4">
+                <!--Display if browser cant play video-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video Text-->
+        <div class="Video_Text">
+            <h1 class="white-text">Matthew Green's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
+                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
+                        <br>field of battle and to command such unswervingly dutiful actors or troops.
+                    </q>
+                    <br> -Joseph Weizenbaum
+                    <br>
+                    <br> My name is Matthew. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About Section-->
+        <div class="Row" id="About">
+            <!--Left Column-->
+            <div class="Column_2">
+                <img src="./images/code_photo.webp" alt="Photo of code">
+            </div>
+            <!--Right Column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a software devoloper who loves to code!
+                    <br>
+                    <br>I am a graduate of <a href="https://www.learncodeanywhere.com" target="_blank">The Tech Academy's</a> Software Devoloper Bootcamp, and trained in the following
+                    web and programming languages: HTML, CSS, JavaScript, SQL, C# and more.
+                    <br>
+                    <br>I am a full-stack devoloper and would to worth with you and your project. <a href="#Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+         <!--GitHub section-->
+         <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/mrg3442" target="_blank">Matthew Green Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--CONTACT-->
+        <div class="Row" id="Contact">
+            <!--Contact image, Left Column-->
+            <div class="Column_2 Column_tall">
+                <img src="./images/contact.jpg" alt="contact image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <form action="https://formspree.io/f/mnqwzgre" method="POST">
+                    <label>Name:</label>
+                    <input type="text" name="Name" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                    <input type="text" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                    <input type="text" name="Message" placeholder="Please write your message here">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+    </body>
+</html>
